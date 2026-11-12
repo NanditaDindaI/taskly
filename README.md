@@ -1,16 +1,21 @@
-# React + Vite
+# 🌷 Taskly - Personal Academic Planner
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Taskly is a Progressive Web Application (PWA) designed specifically for students to organize tasks, manage deadlines, and track their academic journey efficiently. Built with React and Vite, Taskly provides a seamless, app-like experience that works even when you're offline!
 
-Currently, two official plugins are available:
+## ✨ Key Features
+- **📊 Interactive Dashboard:** Get a quick overview of your academic progress, total tasks, and upcoming deadlines.
+- **📝 Task Management:** Categorize your assignments into To Do, In Progress, and Completed.
+- **📱 PWA Support:** Installable on desktop and mobile devices. Fully functional offline!
+- **🧑‍🎓 Student Profile:** Keep track of your academic identity and details.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack
+- **Frontend:** React.js, Vite
+- **Styling:** CSS
+- **Icons:** Lucide React
+- **PWA:** vite-plugin-pwa (Service Workers & Manifest)
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 How to Run Locally
+1. Clone the repository: `git clone https://github.com/NanditaDindaI/taskly.git`
+2. Install dependencies: `npm install`
+3. Run the development server: `npm run dev`
+4. For testing the PWA build: `npm run build` then `npm run preview`

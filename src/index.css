@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: #F9F7F4;
+  color: #514C5B;
+}
+
+button, input {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
